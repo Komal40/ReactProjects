@@ -4,7 +4,7 @@ import {useState} from 'react'
 
 export function Form(){
 
-    const [luckynum, setLuckyNum]=useState(78)
+    const [luckynum, setLuckyNum]=useState(Math.floor(Math.random()*100)+1)
     const [guess, setGuess]=useState(0)
     const [count, setCount]=useState(0)
     const [msg, setMsg]=useState('Guess the number ...')
