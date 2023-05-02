@@ -1,0 +1,22 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent img{
+    margin-top:90px;
+    width:20%;
+    height:20%;
+    border: 2px solid black;
+}
+
+.parent button{
+    margin-top: 30px;
+    width:20%;
+    height: 40px;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: rgb(172, 148, 148);
+}
