@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.header img{
+    height: 90px;
+    margin-right: 20rem;
+    margin-left: 20px;
+}
+
+.header button{
+    height:40px;
+    width:90px;
+    margin-top:9px;
+}
+
+
+.hamburger{
+     visibility:hidden
+}
+
+@media screen and (max-width:780px){
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+
+    .header {
+        display: none;
+    }
+
+   .hamburger{
+    visibility: visible;
+   }
+}

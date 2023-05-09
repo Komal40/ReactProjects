@@ -1,0 +1,47 @@
+.section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left:5rem;
+    /* text-align:center; */
+    box-sizing: border-box;
+}
+
+.leftside{
+    flex-basis: 50%;
+}
+
+.leftside button{
+    width:20%;
+    height:40px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.rightside{
+    flex-basis:50%;
+}
+
+.rightside img{
+    margin:2rem;
+    width:50%;
+    height:40%;
+}
+
+@media screen and (max-width:768px){
+    .section{
+        display: block;
+    }
+
+    .rightside img{
+        order:1;
+        width:100%;
+        
+    }
+
+    .leftside{
+        order:2;
+        width: 100%;
+        text-align: center;
+    }
+}
