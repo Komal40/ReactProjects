@@ -1,0 +1,32 @@
+.parent{
+    height: 15rem;
+    display: flex;
+    margin:auto;
+    width:70%; 
+    padding:2rem;
+    margin-top:4rem;
+    overflow: scroll;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.card{
+    background-color: whitesmoke;
+    min-width:10rem;
+    min-height:12rem;
+    padding:1rem;
+    margin-right:2rem;
+    border-radius:10px;
+    text-align: center;
+ 
+}
+
+.card img{
+    height:90px;
+    width:90px;
+    border-radius: 50%; 
+}
