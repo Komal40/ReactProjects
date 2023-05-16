@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    align-items: center;
+    margin-left:30rem;
+    margin-top: 8rem;
+    /* border:2px solid blue; */
+    width:40%;
+}
+
+.element{
+    /* border: 1px solid red; */
+    width:15rem;
+    margin-bottom: 1rem;
+    padding:0.2rem;
+}
+
+.btn{
+    float: right;
+    cursor: pointer;
+}
+
+.inp{
+    margin-left: 2rem;
+    
+}
