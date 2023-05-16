@@ -1,0 +1,9 @@
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+    font-weight: bolder;
+    font-size: larger;
+
+}

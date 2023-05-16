@@ -1,0 +1,25 @@
+.items{
+    /* border: 1px solid blue; */
+    display: flex;
+    margin:auto;
+    justify-content: space-between;
+}
+
+.header{
+    /* border:1px solid black; */
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.particular{
+    margin-left:6rem;
+    cursor: pointer;
+}
+
+.logo{
+    /* border: 1px solid greenyellow; */
+    width:20%;
+}
+
